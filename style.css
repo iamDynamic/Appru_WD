@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:hsla(102,0%,100%,1);
+background-image:
+radial-gradient(at 86% 15%, hsla(197,100%,36%,1) 0px, transparent 50%),
+radial-gradient(at 14% 56%, hsla(255,100%,96%,1) 0px, transparent 50%);
+}
+nav {
+    display: flex;
+    margin-top: 40px;
+}
+nav .logo h1{
+    margin-left: 100px;
+}
+nav .logo,
+nav .ATag{
+    display: flex;
+}
+nav .ATag{
+    margin-top: 10px;
+    margin-left: 700px;
+}
+nav .ATag a{
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-shadow: 2px 3px 3px #000;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+article{
+    display: flex;
+   margin-top: 150px;
+   margin-left: 200px;
+}
+article aside h1{
+    font-size: 80px;
+}
+article aside p{
+    margin-top: 50px;
+    font-size: 16px;
+    color: gray;
+    text-transform: capitalize;
+}
+article aside .apple{
+    display: flex;
+    border: solid gray;
+    width: fit-content;
+}
+article aside .apple img{
+    width: 80px;
+    margin-top: 20px;
+}
+article aside .apple p{
+    font-size: 15px;
+}
+.btn{
+    margin-top: 40px;
+    border: solid #fff;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #0077b7;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+section img{
+    margin-left: 250px;
+    width: 200px;
+}
